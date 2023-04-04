@@ -2,8 +2,28 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    justify-content: space-between;
 }
 .sliderContainer{
     border: 1px solid var(--color-secondary);
     padding: 12px 0 4px;
 }
+
+@media (max-width: 1330px) {
+    .sliderContent div:nth-child(4){
+        display: none;
+    }
+}
+
+@media (max-width: 1120px) {
+    .sliderContent div:nth-child(3){
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .sliderContent div:nth-child(2){
+        display: none;
+    }
+}
+

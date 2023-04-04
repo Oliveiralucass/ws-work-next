@@ -20,3 +20,27 @@
 .rightContentInfo button:hover{
     background-color: var(--color-detail-blue-on-hover);
 }
+
+@media (max-width: 1500px) {
+    .rightContentInfoContainer img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .rightContentInfoContainer{
+        flex-direction: column;
+        align-items: center;    
+        text-align: center;   
+    }
+
+    .rightContent{
+        text-align: center;
+    }
+
+    .rightContentClickHere{
+        max-width: 200px;
+    }
+}
+

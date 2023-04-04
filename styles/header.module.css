@@ -17,3 +17,13 @@
 .headerText{
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .header img{ 
+        width: 36px;
+        height: 36px;
+    } 
+    .headerText {
+        font-size: 1.25rem;
+    }
+}

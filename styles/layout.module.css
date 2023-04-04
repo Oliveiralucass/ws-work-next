@@ -5,7 +5,7 @@
 }
 .container {
     display: flex;
-    max-width: 70%;
+    width: 70%;
     margin: 0 auto;
     padding: 40px;
 }
@@ -16,4 +16,18 @@
 
 .container main{
     margin:0  20px;
+}
+
+@media (max-width: 920px) {
+    .container{
+        flex-direction: column;
+        width: 90%;
+        padding: 40px 10px;
+    }
+
+    .container aside{
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid black;
+        margin: 12px;
+    }
 }
