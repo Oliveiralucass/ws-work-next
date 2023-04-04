@@ -1,0 +1,9 @@
+.sliderContainer, .sliderContent{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sliderContainer{
+    border: 1px solid var(--color-secondary);
+    padding: 12px 0 4px;
+}

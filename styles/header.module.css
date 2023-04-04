@@ -1,0 +1,19 @@
+.header{
+    background-color: var(--color-secondary);
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    
+}
+.headerTextContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.headerText{
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.rightContent{
+    display: flex;
+    flex-direction: column;
+}
+.rightContentInfoContainer {
+    display: flex;
+}
+.rightContentInfo button{
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: var(--color-detail-blue);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    transition: all ease-in 150ms;
+}
+
+.rightContentInfo button:hover{
+    background-color: var(--color-detail-blue-on-hover);
+}
